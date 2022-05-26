@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Header CSS Starts Here */
+:root {
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+
+body {
+  line-height: 1.4;
+  color: var(--dark);
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/starSky.jpeg) center/ cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.2rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* SearchForm CSS Starts Here */
+.p {
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4rem 0.1rem;
+  letter-spacing: 3px;
+  transition: opacity 0.5s ease;
+} 
+.input-form{
+  background: #fff;
+  border-radius: 2rem;
+  padding: 0.6rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.form-body {
+  margin: 10px;
+  color: #8D9796;
+}
+.search-input {
+  margin-bottom: 50px;
+}
+.search-btn {
+  width: 40px;
+  margin-bottom: 45px;
+  font-size: 1.1rem;
+  color: #fff;
+  border: none;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+}
+
+/* Main Page CSS Starts Here */
+.design {
+  padding: 4.5rem 0;
+}
+.title {
+  text-align: center;
+  padding: 1rem 0;
+}
+.title h2 {
+  margin-bottom: 100px;
+  color: #fff;
+  font-size: 2.4rem;
+}
+.title p {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+}
+.design-content {
+  margin: 2rem 0;
+}
+.design-title {
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.design-title2 {
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Footer CSS Start*/
+footer {
+  background: rgba(0, 0, 0, 0.6);
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a i{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+.socials a:hover i {
+  color: aqua;
+}
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
