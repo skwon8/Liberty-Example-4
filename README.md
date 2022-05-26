@@ -1,0 +1,2 @@
+# Liberty-Example-4
+Write a web application that displays data from https://jsonplaceholder.typicode.com. This application may be written using JavaScript or TypeScript, HTML, and CSS/less/SCSS. You may use any web framework you would like, or none at all. The application should display various posts from the documented API, showing the title, author, and body. If the user enters a numeric user id into a filter field, the displayed posts will be filtered down to those with that user id. Use the sample Desktop view below as a guideline of what your app should look like.
